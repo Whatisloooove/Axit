@@ -1,0 +1,37 @@
+.process {}
+
+.process-inner {
+    padding: 88px 0;
+}
+
+.process-row {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.process-item {
+    height: 100%;
+    width: 350px;
+    max-width: 100%;
+}
+
+.process-item__img {
+    margin: 0 auto 30px;
+    display: block;
+}
+
+.process-text {
+    text-align: center;
+
+    .title {
+        margin-bottom: 10px;
+    }
+
+    .title:after {
+        display: none;
+    }
+
+    .subtitle {}
+}
+

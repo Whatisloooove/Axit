@@ -1,0 +1,51 @@
+.design {
+    background-image: url(../img/design_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &:after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4);
+    }
+}
+
+.design-inner {
+    display: flex;
+    align-items: center;
+    height: 320px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+
+    .title-block {
+        .main__title {
+            color: #fff;
+            margin-bottom: 65px;
+
+            &:after {
+                background: #fff;
+            }
+        }
+
+        .main__subtitle {
+            color: #fff;
+            opacity: 0.8;
+        }  
+    }
+    .btn {
+        margin-top: 33px;
+    }
+}
+
+.design-wrapper {
+    margin: 0 auto; 
+}
+
+
+

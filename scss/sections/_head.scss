@@ -1,0 +1,129 @@
+.head {
+    background-image: url(../img/head/head_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 713px;
+    position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+.head-top{
+    padding: 11px 0;
+    background: #000;
+    position: relative;
+    z-index: 2;
+}
+
+.head-top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    list-style: none;
+    display: block;
+
+    .nav__li {
+        display: inline-block;
+        margin-left: 48px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    .nav__link {
+        text-decoration: none;
+        opacity: 0.69;
+        color: #ffffff;
+        font-family: "Open Sans - Semibold";
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.head-bottom {
+    position: relative;
+    z-index: 1;
+}
+
+.head-bottom-inner {
+    padding-top: 110px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-text {
+    max-width: 600px;
+}
+
+
+.head-form {
+    overflow: hidden;
+    max-width: 360px;
+    background: #fff;
+    border-radius: 7px;
+}
+
+.head-form__title {
+    background: #f5f5f5;
+    padding: 17px 0 14px;
+    text-align: center;
+    color: #333333;
+    font-family: 'Open Sans',
+    sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+    span{
+        color: #ff8b38;
+    }
+    
+}
+
+.head-form-main {
+    padding: 0 37px;
+}
+
+.head-form__input {
+    width: 100%;
+    padding: 11px 0 9px 0;
+    outline: none;
+    border: none;
+    font-family: 'Open Sans',
+    sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 36px;
+    border-bottom:1px solid #d6d6d6;
+
+    &:last-child{
+        margin-bottom: 50px;
+    }
+}
+
+.head-form__btn {
+    width: 100%;
+    padding: 18px 0 19px;
+    color: #ffffff;
+    font-family: 'Open Sans',
+    sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background: #ff9b51;
+    border:none;
+    cursor: pointer;
+}
+
